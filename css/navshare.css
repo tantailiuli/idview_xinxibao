@@ -1,0 +1,49 @@
+.nav_box{
+	height: 80px;
+}
+.nav_box .navbar{
+	position: relative;
+	z-index: 9999;
+}
+.nav_box nav .navbar-header a{
+	float: left;
+	width: 149px;
+	height: 51px;
+	margin: 13px 0;
+}
+.nav_box nav .navbar-header a img{
+	width: 100%;
+	height: 100%;
+}
+.banner_box{
+	padding: 30px 0;
+	background: linear-gradient(to bottom,#2b85de,#32bdef);
+	overflow: hidden;
+}
+.banner_box .txt h1{
+	font-size: 71px;
+	padding: 20px 0;
+}
+.banner_box .txt a{
+	float: left;
+	font-size: 24px;
+	margin: 5px 0;
+	padding: 15px 40px;
+	color: #fff;
+	border-radius: 10px;
+	background-color: #068fcc;
+}
+@media screen and (max-width: 1200px){
+	.banner_box .txt h1{
+		font-size: 30px;
+	}
+	.banner_box .txt a{
+		font-size: 18px;
+		padding: 10px 20px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.nav_box nav .navbar-header a{
+		margin-left:15px;
+	}
+}

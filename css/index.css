@@ -1,0 +1,118 @@
+.infostyle{
+	overflow: hidden;
+}
+.infostyle .infoul_box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	margin: 20px 0;
+}
+.infostyle ul{
+	margin-bottom: 0;
+}
+
+.infostyle ul.ul1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.infostyle ul.ul1 li{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	float: left;
+	width: 160px;
+	height: 80px;
+	border: 0;
+	border-bottom: 1px solid #ddd;
+}
+.infostyle ul.ul1 li.last{
+	border-bottom: 0;
+}
+.infostyle ul.ul1 li:hover,
+.infostyle ul.ul1 li.hover{
+	box-shadow: 0 0 10px -1px #ddd;
+}
+.infostyle ul.ul2 li{
+	display: none;
+}
+.infostyle ul.ul2 li.block{
+	display: block;
+}
+.infostyle ul.ul2 li h3{
+	font-size: 30px;
+}
+.infostyle ul.ul2 li a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	background-color: #408ee0;
+}
+.infostyle ul.ul2 li a:hover{
+	background-color: #009fe5;
+	color: #fff;
+}
+
+.infofunc_box{
+	padding: 40px 0 20px;
+	background-color: #f5f5f5;
+}
+.infofunc_box .infofunc{
+	overflow: hidden;
+}
+.infofunc_box .infofunc header,
+.infostyle header{
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.infofunc_box .infofunc header h3,
+.infostyle header h3{
+	font-size: 36px;
+}
+.infofunc_box .infofunc header p,
+.infostyle header p{
+	font-size: 18px;
+}
+.infofunc_box .infofunc ul li{
+	padding: 20px 0;
+}
+.infofunc_box .infofunc ul li img{
+	margin: 0 auto;
+}
+.infofunc_box .infofunc ul li span{
+	display: block;
+	text-align: center;
+}
+@media screen and (max-width: 768px) {
+	.infofunc_box .infofunc header h3,
+	.infostyle header h3{
+		font-size: 28px;
+	}
+	.infofunc_box .infofunc header p,
+	.infostyle header p{
+		font-size: 14px;
+	}
+	.infostyle ul.ul1 li{
+		padding: 0;
+		width: 80px;
+		flex-direction: column;
+	}
+	.infostyle ul.ul1 li span{
+		font-size: 12px;
+	}
+	.infostyle ul.ul2 li h3{
+		font-size: 20px;
+	}
+	.infostyle ul.ul2 li p{
+		font-size: 12px;
+	}
+}
