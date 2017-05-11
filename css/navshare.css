@@ -1,5 +1,13 @@
+body{
+	padding-top: 80px;
+}
 .nav_box{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 	height: 80px;
+	z-index: 9999;
 }
 .nav_box .navbar{
 	position: relative;

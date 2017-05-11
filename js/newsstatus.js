@@ -8,6 +8,7 @@
     prevButton:".swiper-button-prev", 
     nextButton:".swiper-button-next",
     autoplay:3000,
+    speed:1000
 })
  //新闻
 
@@ -128,6 +129,7 @@ var News = function(){
 		news_content.appendChild(fragment_news);
 	}
 }()
+News(news_data1);
 news_selectli[0].addEventListener("focus",function(){
 	News(news_data1);
 },false)
