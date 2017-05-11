@@ -1,5 +1,16 @@
 .solution_box{
-	background: url(../images/img/solutionbg.png) no-repeat center;
+	position: relative;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+.solution_box.bg1{
+	background-image: url(../images/img/solutionbg.png);
+}
+.solution_box.bg2{
+	background-image: url(../images/img/cooperationbg.png);
+}
+.solution_box.bg3{
+	background-image: url(../images/img/solutionbg.png);
 }
 .solution{
 	padding: 70px 0 100px;
