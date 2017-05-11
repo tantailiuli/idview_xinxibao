@@ -1,6 +1,7 @@
 var info_chooseul_li1 = document.getElementById('info_chooseul1').getElementsByTagName('li'),
 	info_contentul_li1 = document.getElementById('info_contentul1').getElementsByTagName('li'),
-	info_chooseul_li2 = document.getElementById('info_chooseul2').getElementsByTagName('li'),
+	info_chooseul_2 = document.getElementById('info_chooseul2'),
+	info_chooseul_li2 = info_chooseul_2.getElementsByTagName('li'),
 	info_contentul_li2 = document.getElementById('info_contentul2').getElementsByTagName('li'),
 	infoLen1 = info_chooseul_li1.length,
 	infoLen2 = info_chooseul_li2.length;
@@ -28,3 +29,12 @@ function info_ul(li1,li2,Len){
 }
 info_ul(info_chooseul_li1,info_contentul_li1,infoLen1);
 info_ul(info_chooseul_li2,info_contentul_li2,infoLen2);
+
+var info_btn1 = document.getElementById('info_btn1'),
+	info_btn2 = document.getElementById('info_btn2');
+info_btn1.addEventListener("click",function(){
+	info_chooseul_2.setAttribute("class","ul1 up")
+},false)
+info_btn2.addEventListener("click",function(){
+	info_chooseul_2.setAttribute("class","ul1 down")
+},false)

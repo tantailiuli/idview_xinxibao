@@ -13,7 +13,42 @@
 .infostyle ul{
 	margin-bottom: 0;
 }
-
+.infostyle .choose{
+	padding: 0;
+}
+.infostyle .choose button{
+	margin:2px 15px;
+	background-color: #fff;
+	width: 160px;
+	height: 20px;
+	outline: none;
+	border:1px solid #ddd;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.infostyle .choose button.btn1{
+	background-image: url(../images/icon/icon12.png);
+}
+.infostyle .choose button.btn2{
+	background-image: url(../images/icon/icon12_.png);
+}
+.infostyle .ulchoose_box{
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+.infostyle .ulchoose_box ul.ul1{
+	padding: 0 15px;
+	position: absolute;
+	top: 0;
+	transition: top 0.5s;
+}
+.infostyle .ulchoose_box ul.ul1.up{
+	top: 0;
+}
+.infostyle .ulchoose_box ul.ul1.down{
+	top: -160px;
+}
 .infostyle ul.ul1{
 	display: flex;
 	flex-direction: column;
@@ -114,5 +149,8 @@
 	}
 	.infostyle ul.ul2 li p{
 		font-size: 12px;
+	}
+	.infostyle .choose button{
+		width: 80px;
 	}
 }
