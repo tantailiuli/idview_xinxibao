@@ -113,7 +113,7 @@ function createNews(option){
 					option.title,
 					"</h3><p>",
 					option.txt,
-					"</p></div><img class=\"responsive img-responsive\" src=\"",
+					"</p></div><img class=\"col-sm-3 responsive img-responsive\" src=\"",
 					option.img,
 					"\" /></a>"].join("");
 	return li;

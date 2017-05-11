@@ -97,9 +97,6 @@
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
 }
-.news_content ul.content li img{
-	margin-left: 15px;
-}
 @media screen and (min-width: 768px) {
 	.hot_box{
 		display: flex;
