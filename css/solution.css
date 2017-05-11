@@ -52,7 +52,7 @@
 }
 .solution form textarea{
 	max-width: 100%;
-	max-height: 200px;
+	max-height: 150px;
 	border-radius: 5px;
 }
 .solution form input[type="submit"]{

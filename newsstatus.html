@@ -10,8 +10,10 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<title>信析宝智能短信_短信公众号服务开发公司_珠海小源科技</title>
 	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
 	<link rel="stylesheet" href="css/share.css" />
 	<link rel="stylesheet" href="css/navshare.css" />
+	<link rel="stylesheet" href="css/newsstatus.css" />
 	<link rel="stylesheet" href="css/foot.css" />
 </head>
 <body>
@@ -40,15 +42,73 @@
 			</div>
 		</nav>
 	</div>
-	
-
+	<div class="banner_box">
+		<div class="banner wm1200 responsive">
+			<img class="img-responsive col-sm-6" src="./images/img/banner.png" />
+			<div class="txt color_white_base col-sm-6 col-md-5 float_right">
+				<h1>重新定义短信</h1>
+				<p>人工智能技术推动短信的样式、模式和功能，被重新定义。</p>
+				<p>成为移动互联网系统级的智能化服务分发和场景流量入口。</p>
+				<a href="">定制服务</a>	
+			</div>
+		</div>
+	</div>
+	<div class="hot_box wm1200">
+		<div class="swiper-container col-sm-7"> 
+		    <div class="swiper-wrapper">  
+		        <div class="swiper-slide"><img class="reponsive img-responsive" src="images/img/adbanner01.png"></div>  
+		        <div class="swiper-slide"><img class="reponsive img-responsive" src="images/img/adbanner02.png"></div>  
+		        <div class="swiper-slide"><img class="reponsive img-responsive" src="images/img/adbanner01.png"></div>
+		        <div class="swiper-slide"><img class="reponsive img-responsive" src="images/img/adbanner02.png"></div> 
+		    </div>  
+		    <div class="swiper-pagination"></div>  
+		    <div class="swiper-button-prev"></div> 
+		    <div class="swiper-button-next"></div>  
+		</div>
+		<div class="news col-sm-4">
+			<header class="color_blue_base">热点资讯</header>
+			<ul>
+				<li>
+					<a href="">
+						<h3>企业级云通讯服务爆发</h3>
+						<p>2016年6月底，Twilio这家名不见经传的PaTwilio这家名不见经传的Pa</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<h3>企业级云通讯服务爆发</h3>
+						<p>2016年6月底，Twilio这家名不见经传的Pa</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<h3>企业级云通讯服务爆发</h3>
+						<p>2016年6月底，Twilio这家名不见经传的Pa</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<h3>企业级云通讯服务爆发</h3>
+						<p>2016年6月底，Twilio这家名不见经传的Pa</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="news_content wm1200">
+		<ul class="select" id="news_select">
+			<li><a href="#status" name="status" data-hash="status">新闻动态</a></li>
+			<li><a href="#artical" name="artical" data-hash="artical">站内资讯</a></li>
+		</ul>
+		<ul class="content" id="news_content"></ul>
+	</div>
 	<div class="footer_box bgcolor_gray_base">
 		<div class="footer wm1200">
 			<div class="footer_up">
 				<div class="col-sm-4 col-xs-12 col first">
 					<header>
 						<p>新闻动态</p>
-						<a href="newsstatus.html">MORE&gt;&gt;</a>
+						<a href="newsstatus.html#status">MORE&gt;&gt;</a>
 					</header>
 					<ul>
 						<li><a href="newsartical.html">[2017-03-27]&nbsp;【华为P10国行版发布 信析宝打造智能日程管理什么】</a></li>
@@ -61,7 +121,7 @@
 				<div class="col-sm-4 col-xs-12 col">
 					<header>
 						<p>站内资讯</p>
-						<a href="newsstatus.html">MORE&gt;&gt;</a>
+						<a href="newsstatus.html#artical">MORE&gt;&gt;</a>
 					</header>
 					<ul>
 						<li><a href="newsartical.html">[2017-03-27]&nbsp;【华为P10国行版发布 信析宝打造智能日程管理什么】</a></li>
@@ -132,7 +192,10 @@
 			</div>
 		</div>
 	</div>
+	<script src="js/patch.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/swiper-3.4.2.min.js"></script>
+	<script src="js/newsstatus.js"></script>
 </body>
 </html>
