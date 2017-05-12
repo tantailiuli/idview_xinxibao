@@ -25,7 +25,7 @@
 .hot_box .news ul li a h3{
 	margin: 5px 0;
 	color: #000;
-	font-size: 20px;
+	font-size: 18px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -105,7 +105,7 @@
 		padding: 45px 0;
 	}
 	.hot_box .news ul li a h3{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.hot_box .news ul li a p{
 		font-size: 16px;
@@ -142,7 +142,7 @@
 		line-height: 20px;
 	}
 	.news_content ul.content li div.div2 h3{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.news_content ul.content li div.div2 p{
 		font-size: 14px;
@@ -164,5 +164,10 @@
 	}
 	.news_content ul.content li:hover{
 		background-color: #f5f5f5;
+	}
+}
+@media screen and (min-width: 992px) {
+	.hot_box .news ul li a h3{
+		font-size: 24px;
 	}
 }

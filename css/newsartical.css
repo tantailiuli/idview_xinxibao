@@ -88,7 +88,7 @@
 }
 @media screen and (max-width: 768px) {
 	.artical_box .artical header h1{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.artical_box .artical header p.p{
 		flex-direction: column;
